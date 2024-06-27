@@ -33,7 +33,7 @@ Atsijungimo endpointui:
 
 ---
 
-This code snippet handles a GET request to '/api/logout'. It logs out the current user by calling `req.logout()` and then redirects the user to the home page by calling `res.redirect('/')`.
+This code is snippet handles a GET request to '/api/logout'. It logs out the current user by calling `req.logout()` and then redirects the user to the home page by calling `res.redirect('/')`.
 
 ```javascript
     app.get('/api/logout', (req, res) => {
